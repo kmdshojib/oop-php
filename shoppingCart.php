@@ -13,3 +13,7 @@ abstract class Product
         $this->quantity = $quantity;
     }
 }
+
+class Cart {
+    
+}
