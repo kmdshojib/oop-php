@@ -21,6 +21,7 @@ class Student implements IStudent
     {
         $this->courses[$name] = $value;
     }
+    
     public function __get($name)
     {
         if (isset($this->courses[$name])) {
